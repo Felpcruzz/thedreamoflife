@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "dancesemi";
+    src: url(static/DancingScript-SemiBold.ttf);
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: azure;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    padding: 10px;
+}
+header > h1 {
+    font-family: 'dancesemi';
+    font-size: 3em;
+}
+
+div.shadow {
+    box-shadow: -10px -10px -20px 15px black !important;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2.9vw;
+    text-align: justify;
+}
+section#img01 {
+    background-image: url(cordelimg/imagens/background01.jpg);
+    background-position: left center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section#img02 {
+    background-image: url(cordelimg/imagens/background02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.normal {
+    background-color: azure;
+    color: black;
+    width: 400px;
+}
+.image {
+    background-color: rgb(61, 61, 61);
+    color: azure;
+    box-shadow: inset 8px 10px 20px 9px rgba(0, 0, 0, 0.466);
+}
+article.img {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(32, 32, 32, 0.445);
+}
+article.img > p {
+    text-shadow: 1px 1px 0px black;
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    font-size: 0.8em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkgoldenrod;
+}

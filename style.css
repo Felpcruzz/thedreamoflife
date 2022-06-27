@@ -41,7 +41,7 @@ section {
 }
 section#img01 {
     background-image: url(cordelimg/imagens/background01.jpg);
-    background-position: left center;
+    background-position: bottom center;
     background-size: cover;
     background-attachment: fixed;
 }

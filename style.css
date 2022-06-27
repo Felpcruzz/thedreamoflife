@@ -2,7 +2,10 @@
     font-family: "dancesemi";
     src: url(static/DancingScript-SemiBold.ttf);
 }
-
+* {
+    padding: 0px;
+    margin: 0px;
+}
 html, body {
     margin: 0px;
     padding: 0px;
